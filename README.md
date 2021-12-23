@@ -5,11 +5,12 @@ Custom Script for Google Sheet which automatically removes edit permissions for 
 
 Instructions:
 
-1) Open sample sheet as a google sheet online
-2) Go to: Extensions -> Apps Script
-3) Copy and Paste the script from script.js file
-4) Set email address in controllerEmail variable
-5) Go to: Triggers -> Add Trigger
-6) Set "Event Source" to From SpreadSheet
-7) Set "Event Type" to On edit
-8) Tick a checkbox on the sheet to get the email
+1) Import sample sheet through google sheets online
+**Important** (make sure the sheet is imported properly and is of type google sheet and not .xlsx)
+3) Go to: Extensions -> Apps Script
+4) Copy and Paste the script from script.js file
+5) Set email address in controllerEmail variable
+6) Go to: Triggers -> Add Trigger
+7) Set "Event Source" to From SpreadSheet
+8) Set "Event Type" to On edit
+9) Tick a checkbox on the sheet to get the email
