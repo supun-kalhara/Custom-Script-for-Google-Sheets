@@ -26,7 +26,7 @@ function sendEmail(e) {
       //write out message
     let msg = "Project Name: " + projectName + "\nTransmittal No: " + transmittalNo + "\nIssued by: " + issuedBy + "\nTransmittal Document: " + transmittalDoc + "\nDrawing Document: " + softcopyDoc;
     let controllerEmail = "";   //add email address here
-    let subject = "Document Transmittal form Issued by" + issuedBy;
+    let subject = "Document Transmittal form Issued by" + issuedBy; //add subject here
     Logger.log(msg);
     GmailApp.sendEmail(controllerEmail, subject, msg); //send email
 
