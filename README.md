@@ -1,4 +1,4 @@
-# Custom-Script-for-Google-Sheets
+# Custom-Email-Script-for-Google-Sheets
 
 Overview:
 Custom Script for Google Sheet which automatically removes edit permissions for every user except owner for a set range of cells in a row and automatically sends an email with the the values of certain cells.
